@@ -4,18 +4,18 @@ SITE
     dmg (1.1.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/MatthewMaker/sprout.git
   path: osx
   ref: master
-  sha: eafb995c2f396575dbc4aeef3b8d11c2d4a7032a
+  sha: c0f672b7fcdd58333d96a79a5de43c9be929c786
   specs:
     osx (0.1.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/MatthewMaker/sprout.git
   path: pivotal_workstation
   ref: master
-  sha: eafb995c2f396575dbc4aeef3b8d11c2d4a7032a
+  sha: c0f672b7fcdd58333d96a79a5de43c9be929c786
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
@@ -26,38 +26,38 @@ GIT
       sprout-pivotal (>= 0.0.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/MatthewMaker/sprout.git
   path: sprout-osx-apps
   ref: master
-  sha: eafb995c2f396575dbc4aeef3b8d11c2d4a7032a
+  sha: c0f672b7fcdd58333d96a79a5de43c9be929c786
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/MatthewMaker/sprout.git
   path: sprout-osx-base
   ref: master
-  sha: eafb995c2f396575dbc4aeef3b8d11c2d4a7032a
+  sha: c0f672b7fcdd58333d96a79a5de43c9be929c786
   specs:
     sprout-osx-base (0.1.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/MatthewMaker/sprout.git
   path: sprout-osx-settings
   ref: master
-  sha: eafb995c2f396575dbc4aeef3b8d11c2d4a7032a
+  sha: c0f672b7fcdd58333d96a79a5de43c9be929c786
   specs:
     sprout-osx-settings (0.1.0)
       osx (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
 GIT
-  remote: git://github.com/pivotal-sprout/sprout.git
+  remote: git://github.com/MatthewMaker/sprout.git
   path: sprout-pivotal
   ref: master
-  sha: eafb995c2f396575dbc4aeef3b8d11c2d4a7032a
+  sha: c0f672b7fcdd58333d96a79a5de43c9be929c786
   specs:
     sprout-pivotal (0.1.0)
       dmg (>= 0.0.0)
