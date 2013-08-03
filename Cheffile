@@ -1,7 +1,12 @@
 site 'http://community.opscode.com/api/v1'
 
+cookbook 'database'
+
 cookbook 'meta',
   :path => 'site-cookbooks/meta'
+
+cookbook 'osx-apps',
+  :path => 'site-cookbooks/osx-apps'
 
 cookbook 'sprout-osx-base',
   :git => 'git://github.com/MatthewMaker/sprout.git',
