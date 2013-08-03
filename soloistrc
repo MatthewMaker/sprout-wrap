@@ -126,10 +126,10 @@ recipes:
 - sprout-osx-apps::tunnelblick
 - pivotal_workstation::unix_essentials
 - pivotal_workstation::user_owns_usr_local
-- sprout-osx-apps::vagrant
+- osx-apps::vagrant
 - pivotal_workstation::vim
 - pivotal_workstation::vim_config
-- sprout-osx-apps::virtualbox
+- osx-apps::virtualbox
 - sprout-osx-apps::viscosity
 - sprout-osx-apps::vlc
 - pivotal_workstation::watch
