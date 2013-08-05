@@ -37,3 +37,8 @@ cookbook 'osx',
   :git => 'git://github.com/MatthewMaker/sprout.git',
   :path => 'osx',
   :ref => 'dev'
+
+cookbook 'hostsfile'
+  :git => 'git@github.com:customink-webops/hostsfile.git'
+
+
