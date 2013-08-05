@@ -38,7 +38,7 @@ cookbook 'osx',
   :path => 'osx',
   :ref => 'dev'
 
-cookbook 'hostsfile'
+cookbook 'hostsfile',
   :git => 'git@github.com:customink-webops/hostsfile.git'
 
 
