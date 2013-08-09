@@ -9,6 +9,9 @@ cookbook 'sambao21_workstation',
 cookbook 'homebrew',
   :path => 'homebrew'
 
+cookbook 'osx-apps',
+  :path => 'site-cookbooks/osx-apps'
+
 cookbook 'sprout-osx-base',
   :git => sprout_url,
   :path => 'sprout-osx-base'

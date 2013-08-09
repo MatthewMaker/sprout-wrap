@@ -90,10 +90,18 @@ PATH
       sprout-osx-settings (>= 0.0.0)
       sprout-pivotal (>= 0.0.0)
 
+PATH
+  remote: site-cookbooks/osx-apps
+  specs:
+    osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
 DEPENDENCIES
   homebrew (>= 0)
   hostsfile (>= 0)
   osx (>= 0)
+  osx-apps (>= 0)
   pivotal_workstation (>= 0)
   sambao21_workstation (>= 0)
   sprout-osx-apps (>= 0)
