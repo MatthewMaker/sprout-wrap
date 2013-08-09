@@ -50,6 +50,26 @@ recipes:
 - sambao21_workstation::alfred
 - sambao21_workstation::virtualbox
 - sambao21_workstation::vagrant
+- pivotal_workstation::watch
+- pivotal_workstation::wget
+- pivotal_workstation::window_focus
+- pivotal_workstation::xmlstarlet
+- sprout-osx-apps::xquartz
+- sprout-osx-apps::cdrtools
+- sprout-osx-apps::hipchat
+- sprout-osx-apps::android_sdk
+- sprout-osx-apps::ctags_exuberant
+- sprout-osx-apps::flowdock
+- sprout-osx-apps::cdrtools
+- sprout-osx-apps::erlang
+- sprout-osx-apps::gpgtools
+- sprout-osx-apps::gps
+- sprout-osx-apps::grid
+#- sprout-osx-apps::onyx
+- sprout-osx-apps::s3cmd
+- sprout-osx-apps::the_silver_searcher
+- sprout-osx-apps::tig
+- sprout-osx-apps::truecrypt
 node_attributes:
   versions:
     rvm: stable
