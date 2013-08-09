@@ -64,6 +64,13 @@ GIT
       dmg (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
 
+GIT
+  remote: git@github.com:customink-webops/hostsfile.git
+  ref: master
+  sha: 5f1e4d122ad288c2c78061161965c9c07c913f59
+  specs:
+    hostsfile (1.0.2)
+
 PATH
   remote: homebrew
   specs:
@@ -85,6 +92,7 @@ PATH
 
 DEPENDENCIES
   homebrew (>= 0)
+  hostsfile (>= 0)
   osx (>= 0)
   pivotal_workstation (>= 0)
   sambao21_workstation (>= 0)

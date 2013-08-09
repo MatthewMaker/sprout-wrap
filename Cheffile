@@ -32,3 +32,8 @@ cookbook 'sprout-pivotal',
 cookbook 'osx',
   :git => sprout_url,
   :path => 'osx'
+
+
+cookbook 'hostsfile',
+  :git => 'git@github.com:customink-webops/hostsfile.git'
+
