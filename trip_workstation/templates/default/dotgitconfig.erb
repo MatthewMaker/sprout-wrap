@@ -1,0 +1,18 @@
+[merge]
+  tool = vimdiff
+[user]
+  name = Matt Maker
+  email = info@entropyreductionservices.com
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[core]
+  excludesfile = <%=node['sprout']['home']%>/.gitignore_global
+  editor = subl -n -w
+[credential]
+  helper = osxkeychain
+[push]
+  default = simple
