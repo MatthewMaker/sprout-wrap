@@ -1,10 +1,13 @@
-sprout_url = 'git://github.com/pivotal-sprout/sprout.git'
-#sprout_url = 'git://github.com/sambao21/sprout.git'
+#sprout_url = 'git://github.com/pivotal-sprout/sprout.git'
+sprout_url = 'git://github.com/MatthewMaker/sprout.git'
 
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'sambao21_workstation',
   :path => 'sambao21_workstation'
+
+cookbook 'trip_workstation',
+  :path => 'trip_workstation'
 
 cookbook 'homebrew',
   :path => 'homebrew'
